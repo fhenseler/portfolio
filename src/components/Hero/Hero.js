@@ -11,7 +11,7 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-        Hello there!
+        Hi there!
         </SectionTitle>
         <SectionText>  
         I'm Federico Henseler, <br />
