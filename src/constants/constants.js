@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Alkemy Challenge',
     description:"Web app that mocks an online menu for a restaurant. It shows info for each particular dish and other menu details. Data for each dish is retrieved from an external API.",
-    image: '/images/1.png',
+    image: '/portfolio/images/1.png',
     tags: ['Angular', 'Typescript'],
     source: 'https://fhenseler.github.io/alkemy-challenge/',
     visit: 'https://github.com/fhenseler/alkemy-challenge',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Hardware Store',
     description: "Website that displays a variety of hardware products. Users can check out the latest news on the main section of the page, as well as browse, filter and sort through over 10,000 items. All of the data is stored in Firebase.",
-    image: '/images/2.png',
+    image: '/portfolio/images/2.png',
     tags: ['React', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'EstoEs Challenge',
     description: "Project management mini app that allows users to create, update and delete their projects. It includes a search function, form validations and routing.",
-    image: '/images/3.png',
+    image: '/portfolio/images/3.png',
     tags: ['Angular', 'Typescript'],
     source: 'https://estoeschallenge.netlify.app',
     visit: 'https://github.com/fhenseler/EstoEs-challenge',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Eledos',
     description: "E-shop for an online game, where clients can browse through items and services. This app features internationalization in English and Spanish, a currency converter and item listings, as well as a responsive design.",
-    image: '/images/4.png',
+    image: '/portfolio/images/4.png',
     tags: ['Angular', 'Firebase'],
     source: 'https://eledosx.web.app',
     visit: 'https://github.com/fhenseler/eledos',

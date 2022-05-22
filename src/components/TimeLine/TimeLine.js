@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I graduated from UTN as a Programming Technician, <br />
+      I graduated from UTN with a Programming Technician degree <br />
       and worked as an Angular developer. <br />
       I'm a native Spanish speaker and fluent in English. <br />
       </SectionText>

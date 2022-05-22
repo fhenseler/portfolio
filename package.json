@@ -1,21 +1,39 @@
 {
+  "homepage": "https://fhenseler.github.io/portfolio",
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "i18next": "^21.8.2",
     "i18next-browser-languagedetector": "^6.1.4",
-    "next": "10.2.3",
+    "next": "^10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-i18next": "^11.16.9",
     "react-icons": "^4.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.1",
+    "gh-pages": "^4.0.0"
+  },
+  ".babelrc": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "transform-define",
+        "./env-config.js"
+      ]
+    ]
   }
 }

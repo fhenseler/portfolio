@@ -20,7 +20,7 @@ const Hero = (props) => (
         in this field.
          <br />
         </SectionText>
-        <Link href="#about">
+        <Link href="/portfolio/#about">
           <Button onClick={props.handleClick}>Read More</Button>
         </Link>
         <br /><br /><br /><br />
