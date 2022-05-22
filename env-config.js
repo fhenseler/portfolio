@@ -1,5 +1,10 @@
-const prod = process.env.NODE_ENV === 'production'
+const pathPrefix = process.env.NODE_ENV === 'production'
+  ? '/portfolio'
+  : '';
+
 module.exports = {
-    basePath: '/portfolio',
-    'process.env.BACKEND_URL': prod ? '/portfolio' : ''
-  }
+  assetPrefix: pathPrefix,
+  env: {
+    pathPrefix,
+  },
+};
